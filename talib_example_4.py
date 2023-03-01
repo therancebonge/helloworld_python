@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 import talib
+import matplotlib.pyplot as plt
 
 # Download the historical data for the asset
 stock = yf.Ticker("SANOFI.NS")
